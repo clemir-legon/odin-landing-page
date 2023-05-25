@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
 </head>
+
 <body>
-    <div class="wrapper">
-        <header>
+    <header>
+        <div class="wrapper">
             <nav>
-                <a href="./index.hml" class="logo">Header Logo</a>
-                <ul>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Products</a></li>
-                    <li><a href="">Contact</a></li>
+                <a class="nav-logo" href="./index.hml" class="logo">HomeSmart</a>
+                <ul class="nav-list-option">
+                    <li><a class="nav-option" href="">Blog</a></li>
+                    <li><a class="nav-option" href="">Products</a></li>
+                    <li><a class="nav-option" href="">Contact</a></li>
                 </ul>
             </nav>
             <div class="hero-section">
                 <div class="hero-content">
                     <div class="hero-content__text">
-                        <h1>Make your home smart</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio culpa rerum eius.</p>
+                        <h1 class="hero-main__text">Make your home smart</h1>
+                        <p class="hero-secondary__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio culpa rerum eius.</p>
                     </div>
-                    <img class="hero-content__image" src="./img/smart-home-3096224_1280.jpg"></div>
+                    <img class="hero-content__image" src="./img/smart-home.png">
                 </div>
             </div>
-        </header>
-        <main>
-            <div class="random-information-section">
-                <h2>BENEFITS</h2>
-                <div class="information-item">
-                    <img src="./img/idea-icon.svg" alt="Idea icon image">
-                    <p>We give you Ideas</p>
-                </div>
-                <div class="information-item">
-                    <img src="./img/t-shirt-design-icon.svg" alt="Design icon image">
-                    <p>Custom Products</p>
-                </div>
-                <div class="information-item">
-                    <img src="./img/on-time-icon.svg" alt="Time icon image">
-                    <p>Shorter Delivery Time</p>
-                </div>
-                <div class="information-item">
-                    <img src="./img/male-services-support-icon.svg" alt="Support icon image">
-                    <p>Support 24/7</p>
-                </div>
-            </div>       
-            <div class="quote-section">
-                <p class="quote-section__text">Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking.</p>
-                <p class="qoute-section__author">Steve Jobs</p>
+        </div>
+    </header>
+    <main class="wrapper">
+        <div class="random-information-section">
+            <h2>BENEFITS</h2>
+            <div class="information-item">
+                <img src="./img/idea-icon.svg" alt="Idea icon image">
+                <p>We give you Ideas</p>
             </div>
-            <div class="call-action-section">
-                <div class="call-action-copy">
-                    <p class="call-action-copy__title">Do not miss our offers!</p>
-                    <p class="call-action-copy__subtitle">Sign up for our product by clicking that button right over there!</p>
-                </div>
-                <div class="call-action-">
-                    <button>Sign up</button>
-                </div>
-            </div>       
-        </main>
-        <footer>Copyright The Odin Project 2023</footer>
-    </div>
+            <div class="information-item">
+                <img src="./img/t-shirt-design-icon.svg" alt="Design icon image">
+                <p>Custom Products</p>
+            </div>
+            <div class="information-item">
+                <img src="./img/on-time-icon.svg" alt="Time icon image">
+                <p>Shorter Delivery Time</p>
+            </div>
+            <div class="information-item">
+                <img src="./img/male-services-support-icon.svg" alt="Support icon image">
+                <p>Support 24/7</p>
+            </div>
+        </div>
+        <div class="quote-section">
+            <p class="quote-section__text">Your time is limited, so don't waste it living someone else's life. Don't be
+                trapped by dogma – which is living with the results of other people's thinking.</p>
+            <p class="qoute-section__author">Steve Jobs</p>
+        </div>
+        <div class="call-action-section">
+            <div class="call-action-copy">
+                <p class="call-action-copy__title">Do not miss our offers!</p>
+                <p class="call-action-copy__subtitle">Sign up for our product by clicking that button right over there!
+                </p>
+            </div>
+            <div class="call-action-">
+                <button>Sign up</button>
+            </div>
+        </div>
+    </main>
+    <footer class="wrapper">Copyright The Odin Project 2023</footer>
 </body>
+
 </html>
