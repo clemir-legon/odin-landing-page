@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Landing Page</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
-</head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">    
 <body>
     <header>
         <div class="wrapper">
@@ -25,31 +25,38 @@
                 <div class="hero-content">
                     <div class="hero-content__text">
                         <h1 class="hero-main__text">Make your home smart</h1>
-                        <p class="hero-secondary__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio culpa rerum eius.</p>
+                        <p class="hero-secondary__text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Distinctio culpa rerum eius.</p>
                     </div>
                     <img class="hero-content__image" src="./img/smart-home.png">
                 </div>
             </div>
         </div>
     </header>
-    <main class="wrapper">
-        <div class="random-information-section">
-            <h2>BENEFITS</h2>
-            <div class="information-item">
-                <img src="./img/idea-icon.svg" alt="Idea icon image">
-                <p>We give you Ideas</p>
-            </div>
-            <div class="information-item">
-                <img src="./img/t-shirt-design-icon.svg" alt="Design icon image">
-                <p>Custom Products</p>
-            </div>
-            <div class="information-item">
-                <img src="./img/on-time-icon.svg" alt="Time icon image">
-                <p>Shorter Delivery Time</p>
-            </div>
-            <div class="information-item">
-                <img src="./img/male-services-support-icon.svg" alt="Support icon image">
-                <p>Support 24/7</p>
+    <main>
+        <div class="information-section">
+            <div class="wrapper flex-container flex-column">
+                <h2 class="information-title">Benefits of Our Services</h2>
+                <div class="information-wrapper flex-container">
+                    <div class="information-item">
+                        <img class="information-item__image" src="./img/idea-icon.svg" alt="Idea icon image">
+                        <p class="information-item__text">We give you Ideas</p>
+                    </div>
+                    <div class="information-item">
+                        <img class="information-item__image" src="./img/t-shirt-design-icon.svg"
+                            alt="Design icon image">
+                        <p class="information-item__text">Custom Products</p>
+                    </div>
+                    <div class="information-item">
+                        <img class="information-item__image" src="./img/on-time-icon.svg" alt="Time icon image">
+                        <p class="information-item__text">Shorter Delivery Time</p>
+                    </div>
+                    <div class="information-item">
+                        <img class="information-item__image" src="./img/male-services-support-icon.svg"
+                            alt="Support icon image">
+                        <p class="information-item__text">Support 24/7</p>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="quote-section">
