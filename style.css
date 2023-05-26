@@ -104,3 +104,23 @@ a {
 .information-item__text {
     text-align: center;
 }
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+.quote-wrapper {
+    padding: 7rem;
+}
+.quote-section__text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-section__author {
+    padding-right: 4rem;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: right;
+}
