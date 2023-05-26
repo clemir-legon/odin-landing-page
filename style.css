@@ -124,3 +124,30 @@ a {
     font-weight: bold;
     text-align: right;
 }
+
+.action-wrapper {
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: .4rem;
+    color: #f9faf8;
+    justify-content: space-around;
+    padding: 3rem 0;
+}
+
+.call-action-copy {
+}
+
+.call-action-copy__title {
+    font-size: 1.3rem;
+    font-weight: bold;  
+}
+
+.call-action-action button{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    border-radius: .4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: .2rem 1.5rem;
+}
