@@ -125,6 +125,10 @@ a {
     text-align: right;
 }
 
+.call-action-section {
+    padding: 6rem 0;
+}
+
 .action-wrapper {
     align-items: center;
     background-color: #3882f6;
@@ -132,9 +136,6 @@ a {
     color: #f9faf8;
     justify-content: space-around;
     padding: 3rem 0;
-}
-
-.call-action-copy {
 }
 
 .call-action-copy__title {
@@ -150,4 +151,11 @@ a {
     font-size: 1.2rem;
     font-weight: bold;
     padding: .2rem 1.5rem;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 2.5rem 0;
+    text-align: center;
 }
